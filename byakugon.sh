@@ -14,7 +14,7 @@ echo  "                                                     by Techie Shinobi "
 
 if [ "$1" == "" ]
 then
-echo "Please prodvide the necessary arguments to let the byakugon use its power in the network"
+echo "Please prodvide the necessary arguments to let the byakugon use its power in your network"
 echo "Usage Example: ./byakugon.sh 192.168.1."
 else
 for ip in `seq 1 255`; do
